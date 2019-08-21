@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-weather/static/css/main.2472d28e.chunk.css",
+    "main.js": "/react-weather/static/js/main.e9e1ccff.chunk.js",
+    "main.js.map": "/react-weather/static/js/main.e9e1ccff.chunk.js.map",
+    "runtime~main.js": "/react-weather/static/js/runtime~main.2302d1fd.js",
+    "runtime~main.js.map": "/react-weather/static/js/runtime~main.2302d1fd.js.map",
+    "static/js/2.f9508401.chunk.js": "/react-weather/static/js/2.f9508401.chunk.js",
+    "static/js/2.f9508401.chunk.js.map": "/react-weather/static/js/2.f9508401.chunk.js.map",
+    "index.html": "/react-weather/index.html",
+    "precache-manifest.e42209813990dc567a3cdc0ddcce4e7e.js": "/react-weather/precache-manifest.e42209813990dc567a3cdc0ddcce4e7e.js",
+    "service-worker.js": "/react-weather/service-worker.js",
+    "static/css/main.2472d28e.chunk.css.map": "/react-weather/static/css/main.2472d28e.chunk.css.map",
+    "static/media/clear-day.svg": "/react-weather/static/media/clear-day.7f93fbdb.svg",
+    "static/media/clear-night.svg": "/react-weather/static/media/clear-night.a3f3f38d.svg",
+    "static/media/cloudy-day.svg": "/react-weather/static/media/cloudy-day.80a5d865.svg",
+    "static/media/cloudy-night.svg": "/react-weather/static/media/cloudy-night.ef1c6aa1.svg",
+    "static/media/rainy.svg": "/react-weather/static/media/rainy.d235ab65.svg",
+    "static/media/snowy.svg": "/react-weather/static/media/snowy.67d63a14.svg",
+    "static/media/thunder.svg": "/react-weather/static/media/thunder.7142c78b.svg"
+  }
+}
