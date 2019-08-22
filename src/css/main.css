@@ -1,0 +1,117 @@
+body, html {
+  font-size: 62.5%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: 300;
+}
+
+section {
+  width: 100vw;
+}
+
+header#hello {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-color: #ea7317;
+}
+header#hello h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+header#hello h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+section.forecast {
+  margin: auto;
+  background-color: #2364aa;
+}
+
+div.weather-board {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  background-color: #2364aa;
+}
+
+div.weather-cards {
+  display: flex;
+  height: 80vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1024px;
+}
+div.weather-cards div.weather-card {
+  display: flex;
+  flex-basis: 45%;
+  height: 30%;
+  flex-direction: column;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border: #cbe7e4 solid 0.2rem;
+  border-radius: 10%;
+  background-color: #489e96;
+  margin: auto;
+}
+div.weather-cards div.weather-card img {
+  width: 8rem;
+  height: 8rem;
+}
+
+div.search-bar {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fec601;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+form.search-bar {
+  display: flex;
+  height: 90%;
+  width: 90vw;
+  max-width: 1000px;
+  padding: 1rem 0;
+}
+form.search-bar input {
+  height: 100%;
+  width: 70%;
+  border-top-left-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+  padding-left: 1rem;
+  border: 0;
+}
+form.search-bar button {
+  background-color: #3da5d9;
+  border: 0;
+  height: 100%;
+  width: 30%;
+  border-top-right-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
+form.search-bar button:hover {
+  background-color: #7dc3e6;
+  border: #3da5d9 solid 0.3rem;
+}
+
+/*# sourceMappingURL=main.css.map */

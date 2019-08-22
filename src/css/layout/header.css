@@ -1,0 +1,19 @@
+header#hello {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-color: #ea7317;
+}
+header#hello h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+header#hello h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,40 @@
+section.forecast {
+  margin: auto;
+  background-color: #2364aa;
+}
+
+div.weather-board {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  background-color: #2364aa;
+}
+
+div.weather-cards {
+  display: flex;
+  height: 80vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1024px;
+}
+div.weather-cards div.weather-card {
+  display: flex;
+  flex-basis: 45%;
+  height: 30%;
+  flex-direction: column;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border: #cbe7e4 solid 0.2rem;
+  border-radius: 10%;
+  background-color: #489e96;
+  margin: auto;
+}
+div.weather-cards div.weather-card img {
+  width: 8rem;
+  height: 8rem;
+}
+
+/*# sourceMappingURL=card.css.map */
