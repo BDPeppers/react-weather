@@ -27,7 +27,7 @@ class WC extends React.Component{//React.Component subclass
   
   render(){
     return (
-      <div className="weather-card">
+      <div className="weather-card" style={{display: (this.props.styleProp)}}>
         <h1>{this.getWeekDay(this.props.dayProp)}</h1>
          <h2 class="date" id="day">{this.getDate(this.props.dayProp)}</h2>
             <div class="icon">

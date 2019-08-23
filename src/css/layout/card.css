@@ -11,6 +11,13 @@ div.weather-board {
   background-color: #2364aa;
 }
 
+h1.greeting {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  color: whitesmoke;
+}
+
 div.weather-cards {
   display: flex;
   height: 80vh;
@@ -18,6 +25,7 @@ div.weather-cards {
   justify-content: space-around;
   align-items: center;
   max-width: 1024px;
+  margin: auto;
 }
 div.weather-cards div.weather-card {
   display: flex;
@@ -30,11 +38,23 @@ div.weather-cards div.weather-card {
   border: #cbe7e4 solid 0.2rem;
   border-radius: 10%;
   background-color: #489e96;
-  margin: auto;
 }
 div.weather-cards div.weather-card img {
   width: 8rem;
   height: 8rem;
+}
+div.weather-cards div.error-box {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+div.weather-cards div.error-box h1 {
+  font-size: 2rem;
+}
+div.weather-cards div.error-box img {
+  max-width: 7rem;
+  max-height: 7rem;
 }
 
 /*# sourceMappingURL=card.css.map */

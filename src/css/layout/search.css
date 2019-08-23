@@ -8,10 +8,6 @@ div.search-bar {
   background-color: #fec601;
 }
 
-h3 {
-  font-size: 1.5rem;
-}
-
 form.search-bar {
   display: flex;
   height: 90%;

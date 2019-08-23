@@ -4,7 +4,6 @@ header#hello {
   height: 10vh;
   justify-content: center;
   align-items: center;
-  color: whitesmoke;
   background-color: #ea7317;
 }
 header#hello h1 {

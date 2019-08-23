@@ -10,7 +10,11 @@ div.weather-board
     margin: auto
     justify-content: center
     background-color: $lapiz
-    
+h1.greeting
+    display: flex
+    flex-wrap: wrap
+    font-size: 3rem  
+    color: whitesmoke   
     
 div.weather-cards
     display: flex
@@ -19,6 +23,7 @@ div.weather-cards
     justify-content: space-around
     align-items: center
     max-width: 1024px
+    margin: auto
     div.weather-card
         display: flex
         flex-basis: 45%
@@ -30,8 +35,21 @@ div.weather-cards
         border: lighten($moonblue, 25%) solid .2rem
         border-radius: 10%
         background-color: darken($moonblue, 15%)
-        margin: auto
+        
         img
             width: 8rem
             height: 8rem
+    div.error-box
+        flex-direction: column
+        align-items: center
+        display: flex
+        justify-content: center
+        h1
+            font-size: 2rem
+        img
+            max-width: 7rem
+            max-height: 7rem
+
+
+
     

@@ -16,7 +16,7 @@ class Header extends React.Component{
     render(){
         return(
             <div>
-                <h1>{this.state.greeting}</h1>{/*greeting*/}
+                <h1>How's the weather in your city?</h1>{/*greeting*/}
                 <h3>{this.state.clock}</h3>{/*time*/}
             </div>
         );
@@ -29,18 +29,12 @@ class Header extends React.Component{
         if(date.getHours() >= 12){return ' PM';}
     }
 
-    componentDidMount(){//updating clock every 10 seconds and greeting every 30min
+    componentDidMount(){//updating clock every 10 seconds
         setInterval( () => {
             this.setState({
               clock : ((new Date()).toLocaleString().substring(11,16)).replace(/:$/ , "") + this.amPM(new Date())
             })
           },1000)
-        
-          setInterval( () => {
-            this.setState({
-              greeting: greet(new Date())
-            })
-          },1800000 )
     }
 }
 
