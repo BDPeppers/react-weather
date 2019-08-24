@@ -155,15 +155,6 @@ class WC extends React.Component{//React.Component subclass
     return DateString;
   }
 
-  // componentDidUpdate(prevProps, prevState){//update version of componentDidMount
-  //     if(prevProps.forecastProp !== prevState.data){
-  //       this.setState({
-  //         temp: 'it changed'
-  //       })
-  //     }
-  // }
-  
-
 
 }//class end
 

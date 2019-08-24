@@ -2,6 +2,7 @@ body, html {
   font-size: 62.5%;
   height: 100vh;
   overflow-x: hidden;
+  background-color: #2364aa;
 }
 
 * {
@@ -19,6 +20,7 @@ header#hello {
   display: flex;
   width: 100vw;
   height: 10vh;
+  min-height: 5rem;
   justify-content: center;
   align-items: center;
   background-color: #ea7317;
@@ -54,7 +56,8 @@ h1.greeting {
 
 div.weather-cards {
   display: flex;
-  height: 80vh;
+  height: 100%;
+  min-height: 50vh;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -94,6 +97,7 @@ div.weather-cards div.error-box img {
 div.search-bar {
   width: 100vw;
   height: 10vh;
+  min-height: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,11 +109,13 @@ form.search-bar {
   display: flex;
   height: 90%;
   width: 90vw;
+  min-height: 5rem;
   max-width: 1000px;
   padding: 1rem 0;
 }
 form.search-bar input {
   height: 100%;
+  min-height: 5rem;
   width: 70%;
   border-top-left-radius: 2.5rem;
   border-bottom-left-radius: 2.5rem;
@@ -120,6 +126,7 @@ form.search-bar button {
   background-color: #3da5d9;
   border: 0;
   height: 100%;
+  height-min-height: 5rem;
   width: 30%;
   border-top-right-radius: 2.5rem;
   border-bottom-right-radius: 2.5rem;

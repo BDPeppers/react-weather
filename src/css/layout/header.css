@@ -2,6 +2,7 @@ header#hello {
   display: flex;
   width: 100vw;
   height: 10vh;
+  min-height: 5rem;
   justify-content: center;
   align-items: center;
   background-color: #ea7317;
