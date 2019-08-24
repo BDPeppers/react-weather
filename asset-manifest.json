@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-weather/static/css/main.1fe8ed7b.chunk.css",
+    "main.css": "/react-weather/static/css/main.a38c2d9b.chunk.css",
     "main.js": "/react-weather/static/js/main.40b1b731.chunk.js",
     "main.js.map": "/react-weather/static/js/main.40b1b731.chunk.js.map",
     "runtime~main.js": "/react-weather/static/js/runtime~main.2302d1fd.js",
@@ -8,9 +8,9 @@
     "static/js/2.46c1fae5.chunk.js": "/react-weather/static/js/2.46c1fae5.chunk.js",
     "static/js/2.46c1fae5.chunk.js.map": "/react-weather/static/js/2.46c1fae5.chunk.js.map",
     "index.html": "/react-weather/index.html",
-    "precache-manifest.0ea4bcc483b0acc639caee2bab41f1fe.js": "/react-weather/precache-manifest.0ea4bcc483b0acc639caee2bab41f1fe.js",
+    "precache-manifest.adb51ee4e607beef4527db8cdcd51ebc.js": "/react-weather/precache-manifest.adb51ee4e607beef4527db8cdcd51ebc.js",
     "service-worker.js": "/react-weather/service-worker.js",
-    "static/css/main.1fe8ed7b.chunk.css.map": "/react-weather/static/css/main.1fe8ed7b.chunk.css.map",
+    "static/css/main.a38c2d9b.chunk.css.map": "/react-weather/static/css/main.a38c2d9b.chunk.css.map",
     "static/media/clear-day.svg": "/react-weather/static/media/clear-day.7f93fbdb.svg",
     "static/media/clear-night.svg": "/react-weather/static/media/clear-night.a3f3f38d.svg",
     "static/media/cloudy-day.svg": "/react-weather/static/media/cloudy-day.80a5d865.svg",
