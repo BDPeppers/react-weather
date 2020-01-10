@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-weather/static/css/main.a38c2d9b.chunk.css",
-    "main.js": "/react-weather/static/js/main.40b1b731.chunk.js",
-    "main.js.map": "/react-weather/static/js/main.40b1b731.chunk.js.map",
-    "runtime~main.js": "/react-weather/static/js/runtime~main.2302d1fd.js",
-    "runtime~main.js.map": "/react-weather/static/js/runtime~main.2302d1fd.js.map",
-    "static/js/2.46c1fae5.chunk.js": "/react-weather/static/js/2.46c1fae5.chunk.js",
-    "static/js/2.46c1fae5.chunk.js.map": "/react-weather/static/js/2.46c1fae5.chunk.js.map",
+    "main.css": "/react-weather/static/css/main.ec876585.chunk.css",
+    "main.js": "/react-weather/static/js/main.3d2c3d50.chunk.js",
+    "main.js.map": "/react-weather/static/js/main.3d2c3d50.chunk.js.map",
+    "runtime-main.js": "/react-weather/static/js/runtime-main.d2b52519.js",
+    "runtime-main.js.map": "/react-weather/static/js/runtime-main.d2b52519.js.map",
+    "static/js/2.8b1a88e7.chunk.js": "/react-weather/static/js/2.8b1a88e7.chunk.js",
+    "static/js/2.8b1a88e7.chunk.js.map": "/react-weather/static/js/2.8b1a88e7.chunk.js.map",
     "index.html": "/react-weather/index.html",
-    "precache-manifest.adb51ee4e607beef4527db8cdcd51ebc.js": "/react-weather/precache-manifest.adb51ee4e607beef4527db8cdcd51ebc.js",
+    "precache-manifest.5db5d48f3b69ab31df3a1b1960f1b5b4.js": "/react-weather/precache-manifest.5db5d48f3b69ab31df3a1b1960f1b5b4.js",
     "service-worker.js": "/react-weather/service-worker.js",
-    "static/css/main.a38c2d9b.chunk.css.map": "/react-weather/static/css/main.a38c2d9b.chunk.css.map",
+    "static/css/main.ec876585.chunk.css.map": "/react-weather/static/css/main.ec876585.chunk.css.map",
+    "static/js/2.8b1a88e7.chunk.js.LICENSE": "/react-weather/static/js/2.8b1a88e7.chunk.js.LICENSE",
     "static/media/clear-day.svg": "/react-weather/static/media/clear-day.7f93fbdb.svg",
     "static/media/clear-night.svg": "/react-weather/static/media/clear-night.a3f3f38d.svg",
     "static/media/cloudy-day.svg": "/react-weather/static/media/cloudy-day.80a5d865.svg",
@@ -19,5 +20,11 @@
     "static/media/snowy.svg": "/react-weather/static/media/snowy.67d63a14.svg",
     "static/media/thinking.svg": "/react-weather/static/media/thinking.cb0d3c40.svg",
     "static/media/thunder.svg": "/react-weather/static/media/thunder.7142c78b.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2b52519.js",
+    "static/js/2.8b1a88e7.chunk.js",
+    "static/css/main.ec876585.chunk.css",
+    "static/js/main.3d2c3d50.chunk.js"
+  ]
 }
