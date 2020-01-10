@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/main.css';
+import './sass/main.sass';
 
 
 //importing components
