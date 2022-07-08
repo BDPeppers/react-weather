@@ -16,8 +16,7 @@ class Header extends React.Component{
     render(){
         return(
             <div>
-                <h1>How's the weather in your city?</h1>{/*greeting*/}
-                <h3>{this.state.clock}</h3>{/*time*/}
+                <h1>How's the weather in your city?</h1>
             </div>
         );
     }
